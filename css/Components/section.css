@@ -1,0 +1,113 @@
+.section__nav {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #768088;
+}
+
+.section__title {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    color: #2E2E2E;
+}
+
+.section-nav_rectangle-background{
+    background: url("../../images/Rectangle3.png");
+}
+.section_rectangle-background{
+    background: url("../../images/Rectangle4.png");
+}
+.section2_rectangle-background{
+    height: 1706px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #F7F7F7;
+    border-radius: 0px;
+}
+
+.section-TheRoadAhead_background {
+    background: url("../../images/TheRoadAhead.png");
+    height: 280px;
+    width: 460px;
+}
+
+.section-main-box__avatar {
+    border-radius: 60px;
+}
+
+.section-main-box__text1 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.section-main-box__text2 {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.section-main-box__text3 {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.section-FromTopDown_background {
+    background: url("../../images/FromTopDown.png");
+    height: 280px;
+    width: 460px;
+}
+
+.section__block__text1 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #101315;
+}
+
+.section__block__text2 {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #7A7A7A;
+}
+
+.section__block__text3 {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 35px;
+    color: #999999;
+}
+
+.section__second-text {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #101315;
+}

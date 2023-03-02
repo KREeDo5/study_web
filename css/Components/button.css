@@ -1,0 +1,20 @@
+.button {
+    height: 44px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #DD783F;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.button__text {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+}

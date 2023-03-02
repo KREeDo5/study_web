@@ -1,0 +1,58 @@
+.header {
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+
+.header_main-background {
+    background: url("../../images/1.png");
+    height: 500px;
+    width: 1440px;
+}
+
+.header_second-background {
+    background: #F5F5F5;
+    height: 350px;
+    width: 1440px;
+}
+
+.header__logo {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.header__text_link {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header__TextH1 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    color: #FFFFFF;
+}
+
+.header__TextH3 {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.63);
+}
+
+.text_black {
+    color: #2E2E2E;
+}
