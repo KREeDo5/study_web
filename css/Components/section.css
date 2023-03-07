@@ -1,4 +1,4 @@
-.section__nav {
+.section__nav-link {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
@@ -18,22 +18,18 @@
     color: #2E2E2E;
 }
 
-.section-nav_rectangle-background{
-    background: url("../../images/Rectangle3.png");
-}
 .section_rectangle-background{
-    background: url("../../images/Rectangle4.png");
+    height: 2670px;
+    background: #F7F7F7;
+    border-radius: 0px;
 }
 .section2_rectangle-background{
     height: 1706px;
-    left: 0%;
-    right: 0%;
-    top: 0px;
     background: #F7F7F7;
     border-radius: 0px;
 }
 
-.section-TheRoadAhead_background {
+.card_background_road-ahead {
     background: url("../../images/TheRoadAhead.png");
     height: 280px;
     width: 460px;
@@ -43,7 +39,7 @@
     border-radius: 60px;
 }
 
-.section-main-box__text1 {
+.card__title {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
@@ -52,7 +48,7 @@
     color: #FFFFFF;
 }
 
-.section-main-box__text2 {
+.card__description {
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -61,7 +57,7 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
-.section-main-box__text3 {
+.card__context {
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -70,13 +66,13 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
-.section-FromTopDown_background {
+.card_background_fromtopdown {
     background: url("../../images/FromTopDown.png");
     height: 280px;
     width: 460px;
 }
 
-.section__block__text1 {
+.box__title {
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
@@ -85,7 +81,7 @@
     color: #101315;
 }
 
-.section__block__text2 {
+.box__description {
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -94,7 +90,7 @@
     color: #7A7A7A;
 }
 
-.section__block__text3 {
+.box__context {
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
