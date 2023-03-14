@@ -1,0 +1,113 @@
+.footer {
+    background: url("../../../images/footer.png");
+    height: 378px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.footer__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(35, 47, 56, 0.6);
+    height: 89px;
+}
+
+.footer__logo {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.footer__nav {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: 25%;
+    justify-content: space-between;
+}
+
+.nav__text {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    text-decoration: none;
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.stopper__title {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #EFEFEF;
+    margin: 17px;
+}
+
+.footer__stopper {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.stopper__enter {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+
+.enter__window {
+    height: 50px;
+    width: 375px;
+    background: #FFFFFF;
+    border-radius: 3px 0px 0px 3px;
+    display: flex;
+    align-items: center;
+}
+
+.enter__window_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #817F83;
+    margin: 0;
+    margin-left: 35px;
+}
+
+.enter__button {
+    height: 50px;
+    width: 125px;
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 0px 3px 3px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enter__button_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #F8F8F8;
+    margin: 0;
+}
+
+.rectangle_bottom {
+    height: 1px;
+    background: #DEDEDE;
+}

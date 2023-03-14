@@ -4,25 +4,29 @@
 <head>
     <meta charset="utf-8">
     <title>Lab №3</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/main_style.css" rel="stylesheet">
 </head>
 
 <body>
     <header class="header header_main-background">
-        <p class="header__logo">Escape.</p>
-        <nav>
-            <a class="header__text header__text_link" href="index.html">HOME</a>
-            <a class="header__text header__text_link" href="index.html">CATEGORIES</a>
-            <a class="header__text header__text_link" href="index.html">ABOUT</a>
-            <a class="header__text header__text_link" href="index.html">CONTACT</a>
-        </nav>
-        <h1 class="header__text header__text_title">Let's do it together.</h1>
-        <h4 class="header__text header__text_description">We travel the world in search of stories. Come along for the ride.</h4>
-        <form action="the-road-ahead.html">
-            <button class="button button__text">View Latest Posts</button>
-        </form>
+        <div class="header__menu">
+            <h2 class="header__logo">Escape.</h2>
+            <nav class="header__navigation">
+                <a class="navigation__text" href="index.html">HOME</a>
+                <a class="navigation__text" href="index.html">CATEGORIES</a>
+                <a class="navigation__text" href="index.html">ABOUT</a>
+                <a class="navigation__text" href="index.html">CONTACT</a>
+            </nav>
+        </div>
+        <div class="header__context">
+            <h1 class="header__text header__text_title">Let's do it together.</h1>
+            <h4 class="header__text header__text_description">We travel the world in search of stories. Come along for the ride.</h4>
+            <form action="the-road-ahead.html">
+                <button class="button button__text">View Latest Posts</button>
+            </form>
+        </div>
     </header>
-    <section class="section section_rectangle-background">
+    <section class="section">
         <nav class="section__nav">
             <a class="section__nav-link" href="the-road-ahead.html">Nature</a>
             <a class="section__nav-link" href="the-road-ahead.html">Photography</a>
@@ -31,76 +35,165 @@
             <a class="section__nav-link" href="the-road-ahead.html">Travel</a>
             <a class="section__nav-link" href="the-road-ahead.html">Adventure</a>
         </nav>
-        <div>
-            <h2 class="section__title">Featured Posts</h2>
-            <img src="images/Rectangle.png" alt="img">
-            <div class="section__card card card_background_road-ahead">
-                <p class="card__title">The Road Ahead</p>
-                <p class="card__description">The road ahead might be paved - it might not be.</p>
-                <p class="card__context"><img class="section-main-box__avatar" src="images/matvogels.jpg"
-                        alt="img">Mat Vogels September 25,2015</p>
+        <div class="section__unit section__unit_background">
+            <div class="section__card">
+                <div>
+                    <h2 class="section__title">Featured Posts</h2>
+                    <div class="rectangle_bottom"></div>
+                </div>
+                <div class="card">
+                    <div class="card card_background_road-ahead">
+                        <div class="card__main__text">
+                            <a class="card__title"  href="the-road-ahead.html">The Road Ahead</a>
+                            <p class="card__description">The road ahead might be paved - it might not be.</p>
+                            <div class="card__context">
+                                <img class="section-main-box__avatar" src="images/matvogels.jpg" alt="img">
+                                <p class="context_author">Mat Vogels</p>
+                            </div>
+                            <p class="card__data">September 25,2015</p>
+                        </div>
+                    </div>
+                    <div class="card card_background_fromtopdown">
+                        <div class="theme">
+                            <p class="theme_text">ADVENTURE</p>
+                        </div>
+                        <div class="card__main__text">
+                            <p class="card__title">From Top Down</p>
+                            <p class="card__description">Once a year, go someplace you’ve never been before.</p>
+                            <div class="card__context">
+                                <img class="section-main-box__avatar" src="images/williamwong.jpg">
+                                <p class="context_author">William Wong</p>
+                            </div>
+                                    <p class="card__data">September 25,2015</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="section__card card card_background_fromtopdown">
-                <p class="card__title">From Top Down</p>
-                <p class="card__description">Once a year, go someplace you’ve never been before.</p>
-                <p class="card__context"><img class="section-main-box__avatar" src="images/williamwong.jpg"
-                        alt="img">William Wong September 25,2015</p>
-            </div>
-            <h2 class="section__title">Most Recent</h2>
-            <img src="images/Rectangle.png" alt="img">
-            <div class="section__box box">
-                <img src="images/stillstandingtall.jpg" alt="img">
-                <h3 class="box__title">Still Standing Tall</h3>
-                <p class="box__description">Life begins at the end of your comfort zone</p>
-                <img src="images/2ndRectangle.png" alt="img">
-                <p class="box__context"><img src="images/williamwong.jpg" alt="img">William Wong 9/25/2015</p>
-            </div>
-            <div class="section__box box">
-                <img src="images/sunnysideup.png" alt="img">
-                <h3 class="box__title">Sunny Side Up</h3>
-                <p class="box__description">No place is ever as bad as they tell you it's going to be.</p>
-                <img src="images/2ndRectangle.png" alt="img">
-                <p class="box__context"><img src="images/matvogels.jpg" alt="img">Mat Vogels 9/25/2015</p>
-            </div>
-            <div class="section__box box">
-                <img src="images/waterfalls.png" alt="img">
-                <h3 class="box__title">Water Falls</h3>
-                <p class="box__description">We travel not to escape life, but for life not to escape us.</p>
-                <img src="images/2ndRectangle.png" alt="img">
-                <p class="box__context"><img src="images/matvogels.jpg" alt="img">Mat Vogels 9/25/2015</p>
-            </div>
-            <div class="section__box box">
-                <img src="images/throughthemist.png" alt="img">
-                <h3 class="box__title">Through the Mist</h3>
-                <p class="box__description">Travel makes you see what a tiny place you occupy in the world.</p>
-                <img src="images/2ndRectangle.png" alt="img">
-                <p class="box__context"><img src="images/williamwong.jpg" alt="img">William Wong 9/25/2015</p>
-            </div>
-            <div class="section__box box">
-                <img src="images/awakenearly.png" alt="img">
-                <h3 class="box__title">Awaken Early</h3>
-                <p class="box__description">Not all those who wander are lost.</p>
-                <img src="images/2ndRectangle.png" alt="img">
-                <p class="box__context"><img src="images/matvogels.jpg" alt="img">Mat Vogels 9/25/2015</p>
-            </div>
-            <div class="section__box box">
-                <img src="images/tryitalways.png" alt="img">
-                <h3 class="box__title">Try it Always</h3>
-                <p class="box__description">The world is a book, and those who do not travel read only one page.
-                </p>
-                <img src="images/2ndRectangle.png" alt="img">
-                <p class="box__context"><img src="images/matvogels.jpg" alt="img">Mat Vogels 9/25/2015</p>
+            <div class="section__box">
+                <div>
+                    <h2 class="section__title">Most Recent</h2>
+                    <div class="rectangle_bottom"></div>
+                </div>
+                <div class="box">
+                    <div class="box__unit">
+                        <img src="images/stillstandingtall.jpg" alt="img">
+                        <div class="box__text">
+                            <h3 class="box__title">Still Standing Tall</h3>
+                            <p class="box__description">Life begins at the end of your comfort zone</p>
+                            <div class="rectangle_top"></div>
+                            <div class="box__footer">
+                                <div class="box__context">
+                                    <img src="images/williamwong.jpg" alt="img">
+                                    <p class="context_author">William Wong</p>
+                                </div>
+                                <h6 class="box__data">9/25/2015</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box__unit">
+                        <img src="images/sunnysideup.png" alt="img">
+                        <div class="box__text">
+                            <h3 class="box__title">Sunny Side Up</h3>
+                            <p class="box__description">No place is ever as bad as they tell you it's going to be.</p>
+                            <div class="rectangle_top"></div>
+                            <div class="box__footer">
+                                <div class="box__context">
+                                    <img src="images/matvogels.jpg" alt="img">
+                                    <p class="context_author">Mat Vogels</p>
+                                </div>
+                                <h6 class="box__data">9/25/2015</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box__unit">
+                        <img src="images/waterfalls.png" alt="img">
+                        <div class="box__text">
+                            <h3 class="box__title">Water Falls</h3>
+                            <p class="box__description">We travel not to escape life, but for life not to escape us.</p>
+                            <div class="rectangle_top"></div>
+                            <div class="box__footer">
+                                <div class="box__context">
+                                    <img src="images/matvogels.jpg" alt="img">
+                                    <p class="context_author">Mat Vogels</p>
+                                </div>
+                                <h6 class="box__data">9/25/2015</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box__unit">
+                        <img src="images/throughthemist.png" alt="img">
+                        <div class="box__text">
+                            <h3 class="box__title">Through the Mist</h3>
+                            <p class="box__description">Travel makes you see what a tiny place you occupy in the world.</p>
+                            <div class="rectangle_top"></div>
+                            <div class="box__footer">
+                                <div class="box__context">
+                                    <img src="images/williamwong.jpg" alt="img">
+                                    <p class="context_author">William Wong</p>
+                                </div>
+                                <h6 class="box__data">9/25/2015</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box__unit">
+                        <img src="images/awakenearly.png" alt="img">
+                        <div class="box__text">
+                            <h3 class="box__title">Awaken Early</h3>
+                            <p class="box__description">Not all those who wander are lost.</p>
+                            <div class="rectangle_top"></div>
+                            <div class="box__footer">
+                                <div class="box__context">
+                                    <img src="images/matvogels.jpg" alt="img">
+                                    <p class="context_author">Mat Vogels</p>
+                                </div>
+                                <h6 class="box__data">9/25/2015</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box__unit">
+                        <img src="images/tryitalways.png" alt="img">
+                        <div class="box__text">
+                            <h3 class="box__title">Try it Always</h3>
+                            <p class="box__description">The world is a book, and those who do not travel read only one page.
+                            </p>
+                            <div class="rectangle_top"></div>
+                            <div class="box__footer">
+                                <div class="box__context">
+                                    <img src="images/matvogels.jpg" alt="img">
+                                    <p class="context_author">Mat Vogels</p>
+                                </div>
+                                <h6 class="box__data">9/25/2015</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <footer class="footer">
-        <p class="footer__logo">Escape.</p>
-        <nav>
-            <a class="footer__menu" href="index.html">HOME</a>
-            <a class="footer__menu" href="index.html">CATEGORIES</a>
-            <a class="footer__menu" href="index.html">ABOUT</a>
-            <a class="footer__menu" href="index.html">CONTACT</a>
-        </nav>
+        <div class="footer__menu">
+            <h2 class="footer__logo">Escape.</h2>
+            <nav class="footer__nav">
+                <a class="nav__text" href="index.html">HOME</a>
+                <a class="nav__text" href="index.html">CATEGORIES</a>
+                <a class="nav__text" href="index.html">ABOUT</a>
+                <a class="nav__text" href="index.html">CONTACT</a>
+            </nav>
+        </div>
+        <div class="footer__stopper">
+            <div>
+                <p class="stopper__title">Stay in Touch</p>
+                <div class="rectangle_bottom"></div>
+            </div>
+            <div class="stopper__enter">
+                <div class="enter__window">
+                    <p class="enter__window_text">Enter your email address</p>
+                </div>
+                <div class="enter__button">
+                    <p class="enter__button_text">Submit</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 

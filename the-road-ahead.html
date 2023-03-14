@@ -4,25 +4,32 @@
 <head>
     <meta charset="utf-8">
     <title>Lab №3</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/other_style.css" rel="stylesheet">
 </head>
 
 <body>
-    <header class="header_second-background">
-        <p class="header__logo text_black">Escape.</p>
-        <nav class="text_black">
-            <a class="header__text_link text_black" href="index.html">HOME</a>
-            <a class="header__text_link text_black" href="index.html">CATEGORIES</a>
-            <a class="header__text_link text_black" href="index.html">ABOUT</a>
-            <a class="header__text_link text_black" href="index.html">CONTACT</a>
-            <h1 class="header__TextH1 text_black">The Road Ahead</h1>
-            <h4 class="header__TextH3 text_black">The road ahead might be paved - it might not be.</h4>
-        </nav>
+    <header class="header header_main-background">
+        <div class="header__menu">
+            <h2 class="header__logo">Escape.</h2>
+            <nav class="header__navigation">
+                <a class="navigation__text" href="index.html">HOME</a>
+                <a class="navigation__text" href="index.html">CATEGORIES</a>
+                <a class="navigation__text" href="index.html">ABOUT</a>
+                <a class="navigation__text" href="index.html">CONTACT</a>
+            </nav>
+        </div>
+        <div class="header__context">
+            <h1 class="header__text header__text_title">The Road Ahead</h1>
+            <h4 class="header__text header__text_description">The road ahead might be paves - it might not be.</h4>
+        </div>
     </header>
-    <section>
-        <img src="images/IMAGE.png" alt="img">
-        <div class="section2_rectangle-background">
-            <p class="section__second-text">
+    <section class="section">
+        <div class="section__cover">
+            <img src="images/TheRoadAhead_second.png" alt="img">
+        </div>
+        <div class="section__box section_background">
+            <div class="section__content ">
+                <div class="section__box_text">
                 Dark spruce forest frowned on either side the frozen waterway.
                 The trees had been stripped by a recent wind of their white covering of frost,
                 and they seemed to lean towards each other, black and ominous, in the fading light.
@@ -35,8 +42,8 @@
                 It was the masterful and incommunicable wisdom of eternity laughing at the futility
                 of life and the effort of life. It was the Wild, the savage,
                 frozen-hearted Northland Wild.
-            </p>
-            <p class="section__second-text">
+            </div>
+            <div class="section__box_text">
                 But there was life, abroad in the land and defiant.
                 Down the frozen waterway toiled a string of wolfish dogs.
                 Their bristly fur was rimed with frost.
@@ -50,8 +57,8 @@
                 On the sled, securely lashed, was a long and narrow oblong box.
                 There were other things on the sled—blankets, an axe, and a coffee-pot and frying-pan;
                 but prominent, occupying most of the space, was the long and narrow oblong box.
-            </p>
-            <p class="section__second-text">
+            </div>
+            <div class="section__box_text">
                 In advance of the dogs, on wide snowshoes, toiled a man.
                 At the rear of the sled toiled a second man.
                 On the sled, in the box, lay a third man whose toil was over,—a man whom the Wild
@@ -65,8 +72,8 @@
                 and crush into submission man—man who is the most restless of life,
                 ever in revolt against the dictum that all movement must in the end come
                 to the cessation of movement.
-            </p>
-            <p class="section__second-text">
+            </div>
+            <div class="section__box_text">
                 But at front and rear, unawed and indomitable, toiled the two men who were not yet dead.
                 Their bodies were covered with fur and soft-tanned leather.
                 Eyelashes and cheeks and lips were so coated with the crystals from their frozen
@@ -75,17 +82,34 @@
                 penetrating the land of desolation and mockery and silence, puny adventurers
                 bent on colossal adventure, pitting themselves against the might of a world as remote
                 and alien and pulseless as the abysses of space.
-            </p>
+            </div>
+            </div>
         </div>
     </section>
     <footer class="footer">
-        <p class="footer__logo">Escape.</p>
-        <nav>
-            <a class="footer__menu" href="index.html">HOME</a>
-            <a class="footer__menu" href="index.html">CATEGORIES</a>
-            <a class="footer__menu" href="index.html">ABOUT</a>
-            <a class="footer__menu" href="index.html">CONTACT</a>
-        </nav>
+        <div class="footer__menu">
+            <h2 class="footer__logo">Escape.</h2>
+            <nav class="footer__nav">
+                <a class="nav__text" href="index.html">HOME</a>
+                <a class="nav__text" href="index.html">CATEGORIES</a>
+                <a class="nav__text" href="index.html">ABOUT</a>
+                <a class="nav__text" href="index.html">CONTACT</a>
+            </nav>
+        </div>
+        <div class="footer__stopper">
+            <div>
+                <p class="stopper__title">Stay in Touch</p>
+                <div class="rectangle_bottom"></div>
+            </div>
+            <div class="stopper__enter">
+                <div class="enter__window">
+                    <p class="enter__window_text">Enter your email address</p>
+                </div>
+                <div class="enter__button">
+                    <p class="enter__button_text">Submit</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 

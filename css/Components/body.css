@@ -1,6 +1,6 @@
 body {
     position: relative;
     width: 1440px;
-    height: 8689px; /*2689px*/
+    height: fit-content;
     background: #FFFFFF;
 }
