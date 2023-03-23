@@ -7,11 +7,7 @@
 }
 
 .button__text {
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 20px;
+    font: normal 500 13px/20px 'Oxygen';
     text-align: center;
 
     color: #FFFFFF;

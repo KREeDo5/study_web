@@ -15,11 +15,8 @@
 }
 
 .footer__logo {
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 26px;
+    text-decoration: none;
+    font: normal 400 26px/26px 'Lora';
     color: #FFFFFF;
 }
 
@@ -27,28 +24,21 @@
     display: flex;
     flex-wrap: nowrap;
     flex-basis: 25%;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .nav__text {
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 26px;
+    font: normal 400 11px/26px 'Oxygen';
     text-decoration: none;
     text-align: right;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.6);
+    margin-left: 20px;
 }
 
 .stopper__title {
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 30px;
+    font: normal 400 25px/30px 'Oxygen';
     text-align: center;
     color: #EFEFEF;
     margin: 17px;
@@ -77,11 +67,7 @@
 }
 
 .enter__window_text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font: normal 400 12px/14px 'Roboto';
     color: #817F83;
     margin: 0;
     margin-left: 35px;
@@ -98,11 +84,7 @@
 }
 
 .enter__button_text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font: normal 400 12px/14px 'Roboto';
     color: #F8F8F8;
     margin: 0;
 }
