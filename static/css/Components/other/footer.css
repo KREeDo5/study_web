@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(35, 47, 56, 0.6);
+    height: 89px;
+    margin-top: -89px;
+}
+
+.footer__logo {
+    font: normal 400 26px/26px 'Lora';
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer__nav {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: 25%;
+    justify-content: flex-end;
+}
+
+.nav__text {
+    font: normal 400 11px/26px 'Oxygen';
+    text-decoration: none;
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 20px;
+    border-bottom: 2px solid transparent; 
+}
+
+.nav__text:hover {
+    border-bottom: 2px solid #a9a7a7;;
+}

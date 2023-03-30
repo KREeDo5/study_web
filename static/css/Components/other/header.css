@@ -1,13 +1,5 @@
 .header_main-background {
-    background: url("../../../images/main_background.png");
-    height: fit-content;
-    background-size: cover;
-    width: 1440px;
-}
-
-.header_second-background {
-    background: #F5F5F5;
-    height: 350px;
+    height: 360px;
     width: 1440px;
 }
 
@@ -15,43 +7,50 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 20px;
 }
 
 .header__logo {
     height: 26px;
     font: normal 400 26px/26px 'Lora';
-    color: #FFFFFF;
     text-decoration: none;
-    padding: 20px;
+    color: #2E2E2E;
 }
 
 .header__navigation {
     display: flex;
     flex-wrap: nowrap;
-    flex-basis: 21%;
+    flex-basis: 25%;
     justify-content: space-between;
 }
-
 .navigation__text {
     height: 20px;
     font: normal 400 12px/20px 'Oxygen';
     text-decoration: none;
     letter-spacing: 0.6px;
     text-transform: uppercase;
-    color: #FFFFFF;
-    padding:  15px 23px 5px 23px;
+    color: #2E2E2E;
+    background: transparent; 
+    padding: 10px 20px 15px 20px;
+    border-radius: 3px;
+    
+}
+.navigation__text:hover {
+    background: rgba(157, 156, 156, 0.259);
+    padding:  10px 20px 15px 20px;
 }
 
 .header__context {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .header__text_title {
     font: normal 400 50px/51px 'Lora';
-    color: #FFFFFF;
-    margin-top: 108px;
+    color: #2E2E2E;
+    margin-top: 90px;
     margin-bottom: 20px;
     letter-spacing: 2px;
 }
@@ -60,9 +59,5 @@
     font: normal 400 17px/20px 'Oxygen';
     margin: 0;
     margin-bottom: 31px;
-    color: rgba(255, 255, 255, 0.63);
-}
-
-.button{
-    margin-bottom: 157px; /*костыль*/
+    color: rgba(46, 46, 46, 0.63);
 }

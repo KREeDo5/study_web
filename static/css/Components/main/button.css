@@ -1,14 +1,15 @@
 .button {
-    height: 44px;
-    width: 167px;
+    padding: 12px 30px;
     background: #DD783F;
     border-radius: 3px;
     border-style: none;
-}
-
-.button__text {
+    
     font: normal 500 13px/20px 'Oxygen';
     text-align: center;
-
+    text-decoration: none;
     color: #FFFFFF;
+}
+
+.button:hover {
+    background: #f89456;
 }

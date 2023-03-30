@@ -1,7 +1,6 @@
 .section__nav {
     display: flex;
     justify-content: center;
-
 }
 
 .section__nav-link {
@@ -9,7 +8,13 @@
     text-decoration: none;
     color: #768088;
     padding: 22px 49px 23px 49px;
+    border: 2px solid #FFFFFF;
 }
+  
+.section__nav-link:hover {
+    border: 2px solid #768088; /* изменяем цвет рамки при наведении на ссылку */
+}
+
 
 .section__unit {
     display: flex;
@@ -21,7 +26,7 @@
     font: normal 400 20px/27px 'Oxygen';
     letter-spacing: 2px;
     color: #2E2E2E;
-    padding:  0px 20px 16px 20px;
+    padding:  0px 16px 16px 16px;
     border-bottom: 1px solid #DEDEDE
 }
 
@@ -32,7 +37,6 @@
 }
 
 .theme {
-    height: 26px;
     width: 87px;
     background: #DD783F;
     border-radius: 2px;
@@ -44,12 +48,17 @@
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    margin: 0;
-    margin-top: 6px;
     color: #FFFFFF;
+    padding: 6px;
+}
+.theme_hide{
+    background: transparent;
+}
+.theme_text_hide {
+color: transparent;
 }
 
-.section__card {
+.section__cards {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,28 +66,32 @@
     margin-top: 60px;
 }
 
-.card {
+.cards {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 12px;
+    margin-top: 23px;
 }
 
-.card__main__text {
+.card {
+    height: 280px;
+    width: 460px;
+    margin-right: 20px;
+}
+.card:last-child {
+    margin-right: 0;
+}
+.card__background_road-ahead {
+    background: url("../../../img/TheRoadAhead.png");
+}
+.card__background_fromtopdown {
+    background: url("../../../img/FromTopDown.png");
+}
+
+.card__text {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-end;
-    margin-top: 16px;
-}
-
-.card_background_road-ahead {
-    background: url("../../../images/TheRoadAhead.png");
-    height: 280px;
-    width: 460px;
-    margin: 10px;
-}
-
-.section-main-box__avatar {
-    border-radius: 60px;
+    margin-top: 110px;
 }
 
 .card__title {
@@ -87,8 +100,11 @@
     color: #FFFFFF;
     margin: 0;
     margin-bottom: 7px;
-    margin-left: 20px;
-    
+    margin-left: 20px; 
+    border-bottom: 2px solid transparent; 
+}
+.card__title:hover {
+    border-bottom: 2px solid #a09f9f;
 }
 
 .card__description {
@@ -100,7 +116,6 @@
     height: 25px;
     overflow: auto;
 }
-
 .card__context {
     font: normal 400 12px/35px 'Oxygen';
     color: rgba(255, 255, 255, 0.7);
@@ -111,7 +126,9 @@
     display: inline-flex;
     align-items: center;
 }
-
+.avatar {
+    border-radius: 60px;
+}
 .card__data {
     font: normal 400 12px/35px 'Oxygen';
     color: rgba(255, 255, 255, 0.7);
@@ -122,61 +139,54 @@
     justify-content: flex-end;
 }
 
-.card_background_fromtopdown {
-    background: url("../../../images/FromTopDown.png");
-    height: 280px;
-    width: 460px;
-    margin: 10px;
-}
 
 .section__box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 58px;
-    margin-bottom: 108px;
+    margin-top: 68px;
+    margin-bottom: 100px;
 }
-
-.box {
+.boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 16px;
+    margin-top: 10px;
 }
-
-.box__unit {
+.box {
     background: #FFFFFF;
-    height: 291px;
     width: 170px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.09);
     border-radius: 3px;
     flex-basis: 26%;
-    margin: 10px;
-    
+    margin: 12px;
 }
 
-.box__text {
+.box__image {
+    width: 100%;
+}
+.box__information {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
+.box__text{
+    padding: 14px 13px 12px 13px;
+}
 .box__title {
     font: normal 400 16px/19px 'Lora';
     color: #101315;
-    margin: 0;
-    margin-top: 14px;
-    margin-left: 13px;
+
 }
+
+/* sans-serif / serif  */
 .box__description {
     font: normal 400 13px/19px 'Oxygen';
     color: #7A7A7A;
-    margin-top: 8px;
-    margin-left: 13px;
-    margin-right: 13px;
-    margin-bottom: 20px;
-    height: 37px;
+    height: 38px;
     overflow: auto;
+    margin-top: 7px;
 }
 
 .box__footer {

@@ -1,0 +1,61 @@
+.stopper {
+    background: url("../../../img/footer.png");
+    height: 378px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stopper__title {
+    font: normal 400 25px/30px 'Oxygen';
+    text-align: center;
+    color: #EFEFEF;
+    padding: 81px 17px 17px 17px;
+    border-bottom: 1px solid #DEDEDE
+}
+
+.footer__stopper {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+
+.enter__window {
+    height: 48px;
+    width: 315px;
+    background: #FFFFFF;
+    border-radius: 3px 0px 0px 3px;
+    border: none;
+}
+
+.enter__window_text {
+    font: normal 400 12px/14px 'Roboto';
+    color: #817F83;
+    padding: 1px 30px;
+}
+
+.enter__button {
+    height: 50px;
+    width: 125px;
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 0px 3px 3px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+.enter__button:hover {
+    background: rgba(255, 255, 255, 0.495);
+}
+.enter__button_text {
+    font: normal 400 12px/14px 'Roboto';
+    color: #F8F8F8;
+}

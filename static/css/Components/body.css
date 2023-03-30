@@ -2,8 +2,6 @@
     margin: 0;
 }
 body {
-    position: relative;
     width: 1440px;
-    height: fit-content;
     background: #FFFFFF;
 }
